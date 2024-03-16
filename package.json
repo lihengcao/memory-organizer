@@ -1,0 +1,15 @@
+{
+  "name": "memory-organizer",
+  "version": "1.0.0",
+  "description": "Annotate files with description. Can be used to keep track of memories and photos",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Liheng Cao",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.4"
+  }
+}
