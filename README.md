@@ -22,3 +22,6 @@ Since one of the objectives is to learn something, I'll also keep track of some 
 - This was very confusing b/c I was following a quickstart guide and shouldn't have a had a chance 
 to mess anything up yet
 - I resolved this by installing an up to date version of Node after I noticed that `nodejs -v` output a very out of date version number
+
+## IPC: main and renderer process
+- One JS file doesn't have access to the DOM, so it can't directly change the website. This "backend" (it makes more sense for me to think of it like a backend) does the more "desktop app" stuff as opposed to the "web app" stuff, such as file system stuff. 
